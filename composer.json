@@ -1,0 +1,31 @@
+{
+  "name": "synergist/diana-test",
+  "description": "test for synergist",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Diana Martinez",
+      "email": "dpmartinm@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Synergist\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
